@@ -91,7 +91,7 @@ const Exits = ({
         ) : (
           <p>
             Valor Total:{" R$"}
-            {exitsTotal}
+            {exitsTotal.toFixed(2)}
           </p>
         )}
       </Styled.ExitsTotalValue>

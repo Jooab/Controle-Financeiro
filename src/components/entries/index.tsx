@@ -94,7 +94,7 @@ const Entries = ({
         ) : (
           <p>
             Valor Total:{" R$"}
-            {entriesTotal}
+            {entriesTotal.toFixed(2)}
           </p>
         )}
       </Styled.EntriesTotalValue>
